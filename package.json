@@ -3,7 +3,7 @@
     "version": "0.0.0-development",
     "description": "A wrapper around @callstack/react-theme-provider with some RN-specific goodies.",
     "license": "MIT",
-    "main": "index.js",
+    "main": "./build/index.js",
     "scripts": {
         "test": "jest --passWithNoTests",
         "test:watch": "jest --watch",
