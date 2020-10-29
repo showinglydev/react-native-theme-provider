@@ -3,7 +3,7 @@
     "version": "0.0.0-development",
     "description": "A wrapper around @callstack/react-theme-provider with some RN-specific goodies.",
     "license": "MIT",
-    "main": "./build/index.js",
+    "main": "index.js",
     "scripts": {
         "test": "jest --passWithNoTests",
         "test:watch": "jest --watch",
@@ -84,6 +84,14 @@
         "prettier": "^1.18.2",
         "react": "^16.3.0",
         "semantic-release": "^15.13.24"
+    },
+    "babel": {
+        "presets": [
+            "@babel/preset-react"
+        ],
+        "plugins": [
+            "@babel/plugin-syntax-jsx"
+        ]
     },
     "dependencies": {
         "@callstack/react-theme-provider": "^3.0.3",
